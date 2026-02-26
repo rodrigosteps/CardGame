@@ -7,35 +7,33 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-  <link rel="stylesheet" href="./source/style.css" />
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Bowlby+One+SC&family=Cal+Sans&family=Gabarito:wght@400..900&family=Luckiest+Guy&family=Mogra&family=Rammetto+One&family=Sigmar+One&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"><link rel="stylesheet" href="./source/style.css" />
   <link rel="icon" href=" " type="img" />
   <title>Card Game</title>
 </head>
 
 <body>
   <header class="titleGame">
-    <img src=".source/assets/Gemini_Generated_Image_wc01mdwc01mdwc01.png" alt="logo game">
+    <img src="./source/assets/Gemini_Generated_Image_wc01mdwc01mdwc01.png" alt="logo game">
   </header>
 
   <main class="container">
-    <section class="infoPlayer">
-        <div> Qual seu Nome ? <input id="nome" autofocus placeholder="Ex. Maria Silva"  type="text"></input> </div>
-        <div> Qual sua idade ? <input placeholder="Ex. 24" type="date"></input></div>
-        <div> Qual sua cor ? <input type="color"></input></div>
-      <h5>Descubra qual feiticeiro você seria</h5>
-      <button onclick="pickup()" type="submit" id="play">Iniciar</button>
+    <section class="infoPlayer"> 
+        <h5> Qual seu Nome ? </h5>
+        <input id="nome" autofocus placeholder="Ex. Maria Silva" type="text"></input>
+        <h5> Qual sua idade ? </h5>
+        <input id="date" placeholder="Ex. 24" type="number"></input>
+      <button onclick="pickup()" type="submit" id="play"> <audio id="audioPlay" src="./source/assets/card-sound.mp3"></audio> Jogar</button>
     </section>
 
 
     <section class="playerStats">
       <h2 id="playerid"> Descubra quem você seria! </h2>
       <div class="resultado">
-      <img id="Personagem" onload="async" src="./assets/sukunaCard.png" alt="">
+      <img id="Personagem" src="" alt="">
 </div>    
     </section>
   </main>
-
 
 </body>
 <script src="./source/cardgame.js"></script>
