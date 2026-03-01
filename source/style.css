@@ -12,6 +12,7 @@ body {
   height: 100dvh;
   backdrop-filter: blur(4px);
   background: url(./assets/717fba5e9a1c1abf0989d869cd227216.jpg);
+  visibility: visible;
   background-position: center;
   background-size: cover;
 }

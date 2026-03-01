@@ -1,10 +1,10 @@
 
 const imagens = [
-    'sukunaCard.png', 'itadoriCard.png', 'nobaraCard.png', 
-    'gojoCard.png', 'pandaCard.png', 'jogoCard.png', 
-    'todoCard.png', 'nanamiCard.png', 'hanamiCard.png', 
-    'inumakiCard.png', 'makiCard.png', 'mahitoCard.png', 
-    'megumiCard.png'
+    'sukunaCard.webp', 'itadoriCard.webp', 'nobaraCard.webp', 
+    'gojoCard.webp', 'pandaCard.webp', 'jogoCard.webp', 
+    'todoCard.webp', 'nanamiCard.webp', 'hanamiCard.webp', 
+    'inumakiCard.webp', 'makiCard.webp', 'mahitoCard.webp', 
+    'megumiCard.webp'
 ];
 
 // Função de Preload
@@ -31,21 +31,23 @@ const audio = document.getElementById('audioPlay');
     const playerDisplay = document.getElementById("playerid");
     const pasta = './source/assets/'
             const imagens = [
-            'sukunaCard.png',
-            'itadoriCard.png',
-            'nobaraCard.png',
-            'gojoCard.png',
-            'pandaCard.png',
-            'jogoCard.png',
-            'todoCard.png',
-            'nanamiCard.png',
-            'hanamiCard.png',
-            'inumakiCard.png',
-            'makiCard.png',
-            'mahitoCard.png',
-            'megumiCard.png'];
+            'sukunaCard.webp',
+            'itadoriCard.webp',
+            'nobaraCard.webp',
+            'gojoCard.webp',
+            'pandaCard.webp',
+            'jogoCard.webp',
+            'todoCard.webp',
+            'nanamiCard.webp',
+            'hanamiCard.webp',
+            'inumakiCard.webp',
+            'makiCard.webp',
+            'mahitoCard.webp',
+            'megumiCard.webp'];
             
             console.log(pasta)
+            
+            
     //validação de infos
 
     if (playerName.trim() !== "" && playerDate !== "") {
@@ -61,9 +63,11 @@ const audio = document.getElementById('audioPlay');
         // 2. TRUQUE: Força o navegador a "renderizar" o elemento sem a classe
         void imgTag.offsetWidth; 
 
+
         // 3. Adiciona a classe novamente para disparar a animação
         imgTag.classList.add('resultado');
         }
+        
     else {
         playerDisplay.innerHTML ='Preencha seu nome e sua idade';
     }
