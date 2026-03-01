@@ -12,7 +12,7 @@ const audio = document.getElementById('audioPlay');
     const playerDate = document.getElementById("date").value;
     const imgTag = document.getElementById("Personagem");
     const playerDisplay = document.getElementById("playerid");
-    const pasta = './assets'
+    const pasta = './source/assets/'
             const imagens = [
             'sukunaCard.PNG',
             'itadoriCard.PNG',
@@ -28,6 +28,7 @@ const audio = document.getElementById('audioPlay');
             'mahitoCard.PNG',
             'megumiCard.PNG'];
             
+            console.log(pasta)
     //validação de infos
 
     if (playerName.trim() !== "" && playerDate !== "") {
