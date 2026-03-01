@@ -1,10 +1,10 @@
 
 const imagens = [
-    'sukunaCard.PNG', 'itadoriCard.PNG', 'nobaraCard.PNG', 
-    'gojoCard.PNG', 'pandaCard.PNG', 'jogoCard.PNG', 
-    'todoCard.PNG', 'nanamiCard.PNG', 'hanamiCard.PNG', 
-    'inumakiCard.PNG', 'makiCard.PNG', 'mahitoCard.PNG', 
-    'megumiCard.PNG'
+    'sukunaCard.png', 'itadoriCard.png', 'nobaraCard.png', 
+    'gojoCard.png', 'pandaCard.png', 'jogoCard.png', 
+    'todoCard.png', 'nanamiCard.png', 'hanamiCard.png', 
+    'inumakiCard.png', 'makiCard.png', 'mahitoCard.png', 
+    'megumiCard.png'
 ];
 
 // Função de Preload
