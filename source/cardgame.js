@@ -1,5 +1,22 @@
 
+const imagens = [
+    'sukunaCard.PNG', 'itadoriCard.PNG', 'nobaraCard.PNG', 
+    'gojoCard.PNG', 'pandaCard.PNG', 'jogoCard.PNG', 
+    'todoCard.PNG', 'nanamiCard.PNG', 'hanamiCard.PNG', 
+    'inumakiCard.PNG', 'makiCard.PNG', 'mahitoCard.PNG', 
+    'megumiCard.PNG'
+];
 
+// Função de Preload
+const precarregarImagens = () => {
+    imagens.forEach((nome) => {
+        const img = new Image();
+        img.src = `./source/assets/${nome}`;
+    });
+};
+
+// Executa o preload quando a janela carregar
+window.onload = precarregarImagens;
 
 
 //funcção para escolher uma carta
