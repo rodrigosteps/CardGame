@@ -12,7 +12,7 @@ const audio = document.getElementById('audioPlay');
     const playerDate = document.getElementById("date").value;
     const imgTag = document.getElementById("Personagem");
     const playerDisplay = document.getElementById("playerid");
-    const pasta = '/source/assets/'
+    const pasta = 'source/assets/'
             const imagens = [
             'sukunaCard.PNG',
             'itadoriCard.PNG',
