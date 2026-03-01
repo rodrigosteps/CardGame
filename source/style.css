@@ -84,6 +84,13 @@ body {
   -webkit-text-stroke-color: #d3a366;
 }
 
+.resultado {
+  width: 30em;
+  height: 22em;
+  object-fit: contain;
+  border: none;
+}
+
 .infoPlayer button{
   background-color: #ebc60f;
   width: 10em;
