@@ -2,7 +2,7 @@
 const imagens = [
     'sukunaCard.png', 'itadoriCard.png', 'nobaraCard.png', 
     'gojoCard.png', 'pandaCard.png', 'jogoCard.png', 
-    'todoCard.png', 'nanamiCard.png', 'hanamiCard.png', 
+    'mahogaraCard.png', 'nanamiCard.png', 'hanamiCard.png', 
     'inumakiCard.png', 'makiCard.png', 'mahitoCard.png', 
     'megumiCard.png'
 ];
@@ -37,7 +37,7 @@ const audio = document.getElementById('audioPlay');
             'gojoCard.png',
             'pandaCard.png',
             'jogoCard.png',
-            'todoCard.png',
+            'mahogaraCard.png',
             'nanamiCard.png',
             'hanamiCard.png',
             'inumakiCard.png',
